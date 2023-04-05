@@ -1,0 +1,44 @@
+{
+  "name": "boilerplate-next",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "start:node": "next build && cross-env NODE_ENV=development node ./server.js",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.7",
+    "typescript": "5.0.3"
+  },
+  "keywords": [
+    "nextjs",
+    "boilerplate",
+    "website"
+  ],
+  "author": "callmeumm",
+  "license": "MIT",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0",
+    "yarn": ">=1.0.0"
+  },
+  "packageManager": "yarn@3.5.0",
+  "dependencies": {
+    "compression": "1.7.4",
+    "cross-env": "7.0.3",
+    "express": "4.18.2",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
