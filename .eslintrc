@@ -1,25 +1,5 @@
 {
   "root": true,
-  "plugins": ["simple-import-sort", "import"],
-  "rules": {
-    "simple-import-sort/imports": [
-      "error",
-      {
-        "groups": [
-          ["^react", "^@?\\w"],
-          ["^(@|components)(/.*|$)"],
-          ["^\\u0000"],
-          ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
-          ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
-          ["^.+\\.?(css)$"]
-        ]
-      }
-    ],
-    "simple-import-sort/exports": "error",
-    "import/first": "error",
-    "import/newline-after-import": "error",
-    "import/no-duplicates": "error"
-  },
   "env": {
     "node": true,
     "browser": true,

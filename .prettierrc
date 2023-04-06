@@ -4,5 +4,14 @@
   "singleQuote": false,
   "printWidth": 80,
   "tabWidth": 2,
-  "endOfLine": "auto"
+  "endOfLine": "auto",
+  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+  "importOrderTypeImportsToTop": true,
+  "importOrderTypeImportsToBottom": false,
+  "importOrderBuiltinModulesToTop": true,
+  "importOrderCaseInsensitive": false,
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "importOrderMergeDuplicateImports": true,
+  "importOrderSeparation": true,
+  "importOrderSortIndividualImports": true
 }
