@@ -23,3 +23,5 @@ export const Home: NextPage = () => {
     </Fragment>
   );
 };
+
+export default Home;
