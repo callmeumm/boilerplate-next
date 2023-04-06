@@ -1,8 +1,12 @@
+<<<<<<< HEAD
+=======
+import { Fragment } from "react";
+>>>>>>> 4f45d69 (eslint: add import order groups)
+import type { NextPage } from "next";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { Fragment } from "react";
 
-export default function Home() {
+export const Home: NextPage = () => {
   const router = useRouter();
 
   return (
@@ -20,4 +24,4 @@ export default function Home() {
       </main>
     </Fragment>
   );
-}
+};
