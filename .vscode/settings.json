@@ -8,7 +8,8 @@
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": [
     "source.addMissingImports",
-    "source.fixAll.eslint"
+    "source.fixAll.eslint",
+    "source.fixAll.stylelint"
   ],
   "[json][jsonc]": {
     "editor.formatOnSave": true,
@@ -18,5 +19,6 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "typescript.tsdk": "node_modules\\typescript\\lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "stylelint.validate": ["scss"]
 }
