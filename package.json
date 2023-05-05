@@ -4,7 +4,7 @@
   "scripts": {
     "build": "next build",
     "build-stats": "cross-env ANALYZE=true next build",
-    "start": "cross-env NODE_ENV=production next build && next start",
+    "start": "next start",
     "start:node": "cross-env NODE_ENV=production next build && node ./server.js",
     "dev": "next dev",
     "lint": "next lint",
